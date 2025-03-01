@@ -1,0 +1,51 @@
+---
+title: "Python in a Click"
+subtitle: "Reproducible Dev Environments for Python"
+date: "2025-3-2"
+author: "Jericho Arcelao"
+format: 
+    revealjs:
+        theme: dark
+        incremental: true
+---
+
+![](https://miro.medium.com/v2/format:webp/0*7ezJOtYUkI5zyqWU.png)
+
+Source: [Freezing Python's Dependency Hell in 2018](https://tech.instacart.com/freezing-pythons-dependency-hell-in-2018-f1076d625241)
+
+# What if we could setup Python `in one click`?
+
+- No more conflicting Pythons
+- No more conflicting packages
+- No more random fiddling
+
+---
+
+## Python Dev Environment in a Box
+
+- `uv` - Python version and package manager bundled into one
+- `mise` - Manages dev tools, env vars, and tasks
+- `devcontainer` - Containers as full-fledged dev environments
+
+# Let's Try it Out!
+
+---
+
+## Some Points...
+
+- This is not limited to Python
+    - Any language and any tool (i.e. databases, services etc.) can work!
+
+- You'll need to install a base set of tools
+    - Docker Desktop + VSCode Dev Containers
+    - GitHub Codespaces
+
+- You'll need to maintain your setup scripts
+
+---
+
+## What Now?
+
+![](media/repo.png)
+
+Check out the repo for this talk: [jarcelao/python-in-a-click](https://github.com/jarcelao/python-in-a-click)
