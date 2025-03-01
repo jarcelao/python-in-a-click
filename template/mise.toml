@@ -1,0 +1,11 @@
+[tasks.sync]
+description = "Installs Python version and dependencies using uv"
+run = "uv sync"
+
+[tasks.dev]
+description = "Runs the FastAPI server"
+run = "uv run fastapi dev src/main.py"
+
+[tasks.test]
+description = "Tests the FastAPI server"
+run = "uv run pytest"

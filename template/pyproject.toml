@@ -1,0 +1,10 @@
+[project]
+name = "template"
+version = "0.1.0"
+description = "Your example Python project"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi[standard]>=0.115.10",
+    "pytest>=8.3.4",
+]
