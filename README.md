@@ -1,5 +1,7 @@
 # Python in a Click
 
+https://pyinaclick-pyconapac25.pages.dev/
+
 Presentation and template used for the "Python in a Click" lightning talk for PyCon APAC 2025
 
 ## How to Use
