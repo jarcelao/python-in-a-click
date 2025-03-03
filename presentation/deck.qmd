@@ -7,7 +7,6 @@ format:
     revealjs:
         theme: dark
         incremental: true
-        embed-resources: true
 ---
 
 ![](https://miro.medium.com/v2/format:webp/0*7ezJOtYUkI5zyqWU.png)
