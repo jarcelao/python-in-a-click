@@ -1,7 +1,5 @@
 # Python in a Click
 
-https://pyinaclick-pyconapac25.pages.dev/
-
 Presentation and template used for the "Python in a Click" lightning talk for PyCon APAC 2025
 
 ## How to Use
@@ -14,6 +12,8 @@ Should you prefer a local experience, install both [Docker Desktop](https://www.
 ### View Presentation
 
 From the `presentation` directory, execute the `mise run present` command. You should see a `localhost` URL to view the presentation.
+
+Alternatively, a `deck.pdf` file is available in the directory as well.
 
 ### Try the Template
 

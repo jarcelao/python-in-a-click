@@ -1,7 +1,3 @@
 [tasks.present]
 description = "Launches the quarto server"
 run = "quarto preview deck.qmd"
-
-[tasks.export]
-description = "Exports the quarto presentation"
-run = "quarto render deck.qmd --output - >> index.html"
